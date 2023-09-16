@@ -23,8 +23,6 @@ jobs:
           else
           rm -d ./index.html
           fi
-          echo '复制 /home/runner/temp/index.html 到 ./index.html：'
-          cp -v -u -r /home/runner/temp/index.html ./index.html
 
       # Deploy
       - uses: JamesIves/github-pages-deploy-action@4.1.7
